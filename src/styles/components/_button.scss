@@ -1,0 +1,11 @@
+.button {
+    @apply inline-block h-fit w-fit border-none rounded-sm;
+    @apply text-white font-bold text-lg px-4 py-[6px];
+
+    @apply transition-opacity;
+
+    @apply hover:opacity-75 focus:border-none;
+    &-gradient {
+        background: linear-gradient(96.1deg, #2354ff 0%, #6283fa 100%);
+    }
+}

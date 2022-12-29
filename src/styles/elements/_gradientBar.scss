@@ -1,0 +1,6 @@
+.gradient-bar {
+    @apply h-auto w-2;
+    &--split {
+        @apply w-[350px] h-auto;
+    }
+}

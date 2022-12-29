@@ -1,0 +1,17 @@
+.stat {
+    &-list {
+        @apply flex flex-row justify-between gap-x-[clamp(60px,min(20vw,240px),240px)] my-[clamp(50px,min(7vw,160px),160px)];
+    }
+    &-wrapper {
+        @apply flex flex-col justify-center items-center;
+    }
+    &--label {
+        @apply text-[clamp(1.5rem,min(2.5vw,3rem),3rem)] text-white font-bold;
+        @apply leading-[clamp(2.5rem,min(4vw,4rem),4rem)];
+    }
+
+    &--caption {
+        @apply text-[clamp(0.75rem,min(1vw,0.875rem),0.875rem)] text-white font-semibold uppercase;
+        @apply leading-[clamp(2em,min(3vw,3.25em),3.25em)] tracking-[0.15em];
+    }
+}

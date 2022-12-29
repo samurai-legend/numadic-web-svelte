@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply minsm:max-w-[640px] minmd:max-w-[768px] minlg:max-w-[1024px] minxl:max-w-[1280px] min2xl:max-w-[1440px];
+    }
+}
+
+@import "resets";
+@import "fonts";
+@import "icomoon";
+@import "typograhy";
+@import "components/navbar";
+@import "components/button";
+@import "components/banner";
+@import "components/product";
+@import "components/movement";
+@import "components/investor";
+@import "elements/gradientBar";
+@import "elements/dropdown";
+@import "elements/dotMap";
+@import "elements/stat";
+@import "elements/brand";
+
+.center-content {
+    @apply flex flex-col justify-center items-center;
+}

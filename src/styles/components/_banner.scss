@@ -1,0 +1,6 @@
+.banner {
+    &-wrapper {
+        @apply h-screen py-5;
+        @apply flex flex-col justify-end items-center text-center gap-y-3;
+    }
+}

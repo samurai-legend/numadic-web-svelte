@@ -1,0 +1,25 @@
+.navbar {
+    &-container {
+        @apply absolute w-full;
+    }
+
+    &-wrapper {
+        @apply flex flex-row justify-between container mx-auto py-7;
+        @apply text-white font-medium text-lg capitalize;
+    }
+
+    &-menu {
+        @apply flex flex-row gap-[60px];
+        &--item {
+            @apply transition-all ease-in duration-150;
+            @apply hover:opacity-75;
+        }
+        &-wrapper {
+            @apply flex flex-row items-center gap-x-20;
+        }
+    }
+
+    &-logo {
+        @apply w-auto h-10 relative;
+    }
+}

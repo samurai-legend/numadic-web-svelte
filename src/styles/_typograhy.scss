@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+p,
+a {
+    @apply text-white;
+}
+
+h1 {
+    @apply text-[clamp(3.4rem,min(6vw,6.75rem),6.75rem)];
+    @apply leading-[clamp(3.4rem,min(6vw,6.75rem),6.75rem)];
+
+    @apply font-bold;
+}
+
+h2 {
+    @apply text-[clamp(2rem,min(3vw,4rem),4rem)];
+    @apply leading-[clamp(2.5rem,min(3.5vw,4.5rem),4.5rem)];
+
+    @apply font-semibold;
+}
+
+h3 {
+    @apply text-[clamp(1.5rem,min(2.5vw,3rem),3rem)];
+    @apply leading-[clamp(2rem,min(2.6vw,4rem),4rem)];
+    @apply font-semibold;
+}
+
+p {
+    @apply text-[clamp(1.2rem,min(1.7vw,1.75rem),1.75rem)];
+    @apply leading-[clamp(1.56,min(2vw,2.625rem),2.625rem)];
+}
