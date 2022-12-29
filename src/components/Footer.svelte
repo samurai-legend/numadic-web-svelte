@@ -91,7 +91,7 @@
 									href={social.link}
 									class="text-[0.875rem] font-normal leading-[34px] text-white capitalize "
 									><i
-										class={`icomoon icon-${social.icon} text-gray-light text-2xl hover:text-white transition-all duration-150`}
+										class="icomoon icon-{social.icon} text-gray-light text-2xl hover:text-white transition-all duration-150"
 									/></a
 								>
 							</li>

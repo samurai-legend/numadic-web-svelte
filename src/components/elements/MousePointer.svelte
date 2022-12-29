@@ -22,7 +22,7 @@
 
 <div
 	class="circle"
-	style={`left:${$coords.x}px; top:${$coords.y}px; transform:scale(${$size}) translate(-50%,-50%);`}
+	style="left:{$coords.x}px; top:{$coords.y}px; transform:scale({$size}) translate(-50%,-50%);"
 />
 
 <style lang="scss">

@@ -4,6 +4,7 @@
 	import { page } from '$app/stores';
 	import MousePointer from '$components/elements/MousePointer.svelte';
 	import Footer from '$components/Footer.svelte';
+	import ShootingStars from '$components/elements/ShootingStars.svelte';
 </script>
 
 <svelte:head>
@@ -11,8 +12,12 @@
 </svelte:head>
 
 <!-- <MousePointer /> -->
+
 <Navbar />
-
-<main class="container"><slot /></main>
-
+<main class="container">
+	<slot />
+</main>
 <Footer />
+<div class="fixed top-0 left-0 right-0 bottom-0 h-screen w-screen">
+	<ShootingStars />
+</div>

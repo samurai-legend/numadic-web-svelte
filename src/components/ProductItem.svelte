@@ -9,7 +9,7 @@
 
 <div class="product-item-wrapper">
 	<div class="product-item--image">
-		<!-- <img src={imageLink} alt={`Product-image-${imageLink}`} /> -->
+		<!-- <img src={imageLink} alt="Product-image-{imageLink}" /> -->
 	</div>
 
 	<div class="product-item-content-wrapper">
