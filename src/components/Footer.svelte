@@ -1,15 +1,5 @@
 <script lang="ts">
 	let logo = '/NU-logo-white.svg';
-	let addresses = [
-		{
-			title: 'india',
-			address: `Greyscale HQ,<br/>Dona Paula, Goa<br/>403 004`
-		},
-		{
-			title: 'uk',
-			address: `10 John Street, London,<br/>United Kingdom<br/>WC1N 2EB`
-		}
-	];
 
 	let products = [
 		{ label: 'wallets', link: '#' },
@@ -31,29 +21,20 @@
 		{ link: '#', icon: 'twitter' },
 		{ link: '#', icon: 'instagram' }
 	];
+
+	let policies = [
+		{ link: '#', label: 'Terms of service' },
+		{ link: '#', label: 'Privacy policy' },
+		{ link: '#', label: 'Cancellation policy' }
+	];
 </script>
 
-<footer class="container mt-40 mb-14 flex flex-col gap-y-36">
-	<div class="grid grid-cols-4 w-full">
-		<h3 class="mt-4">Locations</h3>
-		{#each addresses as address}
-			<div class="flex flex-col items-start">
-				<span
-					class="uppercase text-[0.875rem]  leading-[50px] tracking-[0.15rem] font-bold text-gray-light"
-					>{address.title}</span
-				>
-				<p class="text-[1.25rem] font-normal leading-[30px]">{@html address.address}</p>
-			</div>
-		{/each}
-	</div>
+<footer class="container mt-20 flex flex-col">
 	<div class="grid grid-cols-4 w-full">
 		<a href="/" class="mt-4"><img class="navbar-logo" src={logo} alt="NU-White logo" /></a>
 
 		<div class="col-span-3">
-			<span
-				class="uppercase text-[0.875rem]  leading-[50px] tracking-[0.15rem] font-bold text-gray-light"
-				>products</span
-			>
+			<span class="caption-bold">products</span>
 			<div class="grid grid-cols-3">
 				<div class="flex flex-col items-start">
 					<ul>
@@ -100,5 +81,14 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="bottom-footer">
+		<span>&copy; Numadic Ltd. (UK)</span>
+		<span>Warm regards from Goa, India</span>
+		<span class="flex flex-row">
+			{#each policies as policy}
+				<a href={policy.link}>{policy.label}</a>
+			{/each}
+		</span>
 	</div>
 </footer>

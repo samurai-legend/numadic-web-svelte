@@ -1,5 +1,9 @@
+<script lang="ts">
+	export let direction: 'up' | 'down' = 'down';
+</script>
+
 <svg
-	class="gradient-bar--split"
+	class="gradient-bar--split {direction}"
 	viewBox="0 0 350 403"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"

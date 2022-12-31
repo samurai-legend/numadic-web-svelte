@@ -1,0 +1,26 @@
+.bottom-footer {
+    @apply grid grid-cols-3 w-full border-t-[1px] border-solid border-gray-dark mt-10 py-5;
+
+    span:nth-child(1) {
+        @apply text-start;
+    }
+    span:nth-child(2) {
+        @apply text-center;
+    }
+    span:nth-child(3) {
+        @apply flex justify-end;
+        a {
+            @apply transition-opacity duration-150 hover:opacity-30;
+        }
+        a:not(:last-child) {
+            @apply relative block pr-2 mr-2;
+            &:before {
+                @apply content-[''] absolute w-[1px] h-4 bg-gray-dark right-0 translate-y-1/2;
+            }
+        }
+    }
+    > span,
+    a {
+        @apply text-gray-light text-[0.75rem] leading-[2.125rem];
+    }
+}

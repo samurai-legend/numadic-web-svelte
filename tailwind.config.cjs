@@ -26,6 +26,8 @@ module.exports = {
         "black-dark": "#1B1B1B",
         "gray-light": "#999999",
         "gray-medium": "#393939",
+        'gray-dark': '#333333',
+        'gray-extra-dark': '#252525',
         success: "#22CD9D",
       },
     },

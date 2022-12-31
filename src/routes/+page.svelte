@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Banner from '$components/Banner.svelte';
 	import Investor from '$components/Investor.svelte';
+	import Location from '$components/Location.svelte';
 	import Movement from '$components/Movement.svelte';
 	import ProductDetail from '$components/ProductDetail.svelte';
 
@@ -22,3 +23,4 @@
 <ProductDetail title={section.productDetail.title} />
 <Movement />
 <Investor />
+<Location />

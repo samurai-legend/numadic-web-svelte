@@ -18,11 +18,14 @@
 @import "components/product";
 @import "components/movement";
 @import "components/investor";
+@import "components/footer";
 @import "elements/gradientBar";
 @import "elements/dropdown";
 @import "elements/dotMap";
 @import "elements/stat";
 @import "elements/brand";
+@import "elements/valueSystem";
+@import "elements/teamPlaceholder";
 
 .center-content {
     @apply flex flex-col justify-center items-center;
