@@ -28,6 +28,7 @@ module.exports = {
         "gray-medium": "#393939",
         'gray-dark': '#333333',
         'gray-extra-dark': '#252525',
+        'gray-extra-light': '#303030',
         success: "#22CD9D",
       },
     },

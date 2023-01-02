@@ -49,7 +49,7 @@
 					{/if}
 				{/each}
 			</ul>
-			<ButtonGradient label="Get in touch" />
+			<ButtonGradient label="Get in touch" href="/contact-us" />
 		</div>
 	</div>
 </nav>
