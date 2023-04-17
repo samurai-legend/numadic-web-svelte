@@ -4,10 +4,9 @@
 
 <section class="banner-wrapper center-content">
 	<div class="center-content gap-y-7">
-		<h1>Careers at Numadic</h1>
-		<p class="text-center max-w-[clamp(400px,80vw,797px)]">
-			We lead, we innovate, we simplify and we learn from each other as we embark on the journey to
-			undisrupt movement.
+		<h1>Life at Numadic</h1>
+		<p class="body-1 text-center max-w-[clamp(400px,80vw,797px)]">
+			Our primary role is to undisrupt movement. It takes many people to make that vision a reality.
 		</p>
 	</div>
 	<GradientButton label="View open positions" />

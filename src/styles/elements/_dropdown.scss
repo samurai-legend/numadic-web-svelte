@@ -1,20 +1,20 @@
 .dropdown {
-    &-wrapper {
-        @apply relative cursor-pointer;
-        -webkit-tap-highlight-color: transparent;
-        &:hover {
-            .dropdown-menu {
-                @apply flex flex-col flex-nowrap gap-y-2;
-            }
-        }
-    }
+	&-wrapper {
+		@apply relative cursor-pointer;
+		-webkit-tap-highlight-color: transparent;
+		&:hover {
+			.dropdown-menu {
+				@apply flex flex-col flex-nowrap gap-y-2;
+			}
+		}
+	}
 
-    &-menu {
-        @apply absolute top-full bg-gray-medium whitespace-nowrap rounded-sm;
-        @apply hidden;
+	&-menu {
+		@apply absolute top-full bg-dark-shade-300 whitespace-nowrap rounded-sm;
+		@apply hidden;
 
-        > .navbar-menu--item {
-            @apply py-2 px-4 hover:bg-gray-light;
-        }
-    }
+		> .navbar-menu--item {
+			@apply py-2 px-4 hover:bg-dark-shade-100;
+		}
+	}
 }

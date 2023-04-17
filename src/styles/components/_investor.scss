@@ -1,12 +1,14 @@
 .investor {
-    &-wrapper {
-        @apply mx-[clamp(70px,min(12vw,160px),160px)];
-
-        .button {
-            @apply text-[clamp(1rem,min(1.5vw,1.5rem),1.5rem)] py-3 px-6 my-5;
-        }
-    }
-    &-description {
-        @apply font-normal max-w-[500px] text-center my-5;
-    }
+	&-wrapper {
+		@apply mx-[clamp(70px,min(12vw,160px),160px)];
+		@extend %body-1;
+		.button {
+			@apply py-3 px-6;
+			@extend %body-1;
+		}
+	}
+	&-description {
+		@apply font-normal max-w-[500px] text-center my-5;
+		@extend %body-1;
+	}
 }

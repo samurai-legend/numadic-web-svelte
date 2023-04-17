@@ -8,13 +8,10 @@
 	let section = {
 		banner: {
 			title: 'Automating vehicle commerce',
-			description: `Numadic builds the infrastructure 
-    connecting auto makers, financiers, banks & energy companies, 
-    ultimately <strong>undisrupting vehicle</strong> 
-    <strong>movement</strong> for end users.`
+			description: `Numadic builds the technology connecting vehicles to fuel & EV companies, financial institutions, tolling agencies, drive through restaurants & more.`
 		},
 		productDetail: {
-			title: 'We build products across the vehicle commerce stack'
+			title: 'We digitise & automate the vehicle commerce stack'
 		}
 	};
 </script>
@@ -23,4 +20,3 @@
 <ProductDetail title={section.productDetail.title} />
 <Movement />
 <Investor />
-<Location />

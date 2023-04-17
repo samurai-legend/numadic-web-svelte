@@ -1,42 +1,42 @@
 html,
 body {
-    @apply bg-black-dark p-0 m-0;
+	@apply bg-dark-shade-500 p-0 m-0;
 }
 
 body {
-    @apply antialiased relative;
+	@apply antialiased relative;
 }
 
 *,
 *:after,
 *:before {
-    @apply box-border m-0 p-0;
+	@apply box-border m-0 p-0;
 }
 
 /* Works on Firefox */
 * {
-    scrollbar-width: thin;
-    scrollbar-color: #333333 white;
+	scrollbar-width: thin;
+	scrollbar-color: #333333 white;
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    @apply w-0;
+	@apply w-0;
 
-    @screen md {
-        @apply w-2;
-    }
+	@screen md {
+		@apply w-2;
+	}
 }
 
 *::-webkit-scrollbar-track {
-    @apply bg-transparent;
+	@apply bg-transparent;
 }
 
 *::-webkit-scrollbar-thumb {
-    @apply border-white border-solid border-r-[20px] bg-black-dark border-[3px];
+	@apply border-white border-solid border-r-[20px] bg-dark-shade-100 border-[3px];
 }
 
 a {
-    text-decoration: none;
-    @apply text-inherit;
+	text-decoration: none;
+	@apply text-inherit;
 }

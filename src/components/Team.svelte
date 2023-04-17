@@ -23,14 +23,14 @@
 	let founders = [{ name: 'Luke', src: '/images/team/luke.png', alt: 'Luke', designation: 'CEO' }];
 </script>
 
-<section class="center-content">
+<section class="center-content my-20">
 	<div class="center-content gap-y-5 max-w-[clamp(400px,40vw,608px)]">
-		<h2>We are Numads</h2>
-		<span>
-			<h3 class="small-title">Numads - the people of Numadic.</h3>
-			<p class="small-para">
-				Full stack humans, comfortable across digital and physical landscapes. United on a journey
-				to undisrupt movement.
+		<h2>Meet the Numads</h2>
+		<span class="flex flex-col justify-center items-center gap-y-4">
+			<h3 class="body-3 text-center">Numads - the people of Numadic.</h3>
+			<p class="body-4">
+				Full stack humans; skilled across domains. Aligned via a commitment to self improvement. On
+				a journey of internal transformation that reflects across every facet of this organisation.
 			</p>
 		</span>
 	</div>
@@ -41,7 +41,7 @@
 				{#if member.src}
 					<img class="h-[clamp(200px,40vw,414px)] w-fit" src={member.src} alt={member.alt} />
 				{/if}
-				<span class="small-title capitalize text-white">{member.name}</span>
+				<span class="body-3 capitalize text-white">{member.name}</span>
 			</div>
 		{/each}
 	</div>
@@ -52,9 +52,15 @@
 				<img class="h-[clamp(200px,40vw,414px)] w-fit" src={founder.src} alt={founder.alt} />
 			{/if}
 			<div class="flex flex-col text-center">
-				<span class="small-title capitalize text-white">{founder.name}</span>
+				<span class="body-3 capitalize text-white">{founder.name}</span>
 				<span class="text-white">Founder, {founder.designation}</span>
 			</div>
 		</div>
 	{/each}
 </section>
+
+<style lang="scss">
+	.body-4 {
+		@apply text-center leading-5;
+	}
+</style>

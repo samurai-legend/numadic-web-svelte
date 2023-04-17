@@ -17,7 +17,7 @@
 		{#each addresses as address}
 			<div class="flex flex-col items-start">
 				<span
-					class="uppercase text-[0.875rem]  leading-[50px] tracking-[0.15rem] font-bold text-gray-light"
+					class="uppercase text-[0.875rem]  leading-[50px] tracking-[0.15rem] font-bold text-dark-shade-100"
 					>{address.title}</span
 				>
 				<p class="text-[1.25rem] font-normal leading-[30px]">{@html address.address}</p>

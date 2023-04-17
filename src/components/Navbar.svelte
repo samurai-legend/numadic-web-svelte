@@ -6,31 +6,36 @@
 	let logo = '/NU-logo-white.svg';
 
 	let navMenuItems: NavItemType[] = [
+		// {
+		// 	label: 'product',
+		// 	type: 'dropdown',
+		// 	menu: [
+		// 		{
+		// 			label: 'about us',
+		// 			href: '/about-us',
+		// 			type: 'link'
+		// 		},
+		// 		{
+		// 			label: 'about us',
+		// 			href: '/about-us',
+		// 			type: 'link'
+		// 		}
+		// 	]
+		// },
 		{
-			label: 'product',
-			type: 'dropdown',
-			menu: [
-				{
-					label: 'about us',
-					href: '/about-us',
-					type: 'link'
-				},
-				{
-					label: 'about us',
-					href: '/about-us',
-					type: 'link'
-				}
-			]
-		},
-		{
-			label: 'about us',
+			label: 'About us',
 			type: 'link',
 			href: '/about-us'
 		},
 		{
-			label: 'careers',
+			label: 'Life at Numadic',
 			type: 'link',
 			href: '/careers'
+		},
+		{
+			label: 'contact',
+			type: 'link',
+			href: '/contact-us'
 		}
 	];
 </script>

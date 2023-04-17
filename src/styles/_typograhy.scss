@@ -1,71 +1,123 @@
+// Placeholders
+%h1 {
+	@apply text-[clamp(3.4rem,min(6vw,6.75rem),6.75rem)];
+	@apply leading-[clamp(3.4rem,min(6vw,6.75rem),6.75rem)];
+	@apply font-bold;
+}
+
+%h2 {
+	@apply text-[clamp(2rem,min(3vw,4rem),4rem)];
+	@apply leading-[clamp(2.5rem,min(3.5vw,4.5rem),4.5rem)];
+	@apply font-normal;
+}
+
+%h3 {
+	@apply text-[clamp(1.5rem,min(2.5vw,3rem),3rem)];
+	@apply leading-[clamp(2rem,min(2.6vw,4rem),4rem)];
+	@apply font-normal;
+}
+
+%h4 {
+	@apply text-[clamp(1.5rem,min(2.5vw,3rem),3rem)];
+	@apply leading-[clamp(3rem,min(2.6vw,5.125rem),5.125rem)];
+	@apply font-bold;
+}
+
+%h5 {
+	@apply text-[clamp(1.25rem,min(2.5vw,2.25rem),2.25rem)];
+	@apply leading-[clamp(2rem,min(2.6vw,3rem),3rem)];
+	@apply font-semibold;
+}
+%h6 {
+	@apply text-[clamp(1.25rem,min(2.5vw,2.25rem),2.25rem)];
+	@apply leading-[clamp(2rem,min(2.6vw,3rem),3rem)];
+	@apply font-normal;
+}
+
+%body-1 {
+	@apply text-[clamp(1.125rem,min(2.5vw,1.5rem),1.5rem)];
+	@apply leading-[clamp(1.75rem,min(2.6vw,2.375rem),2.375rem)];
+	@apply font-normal;
+}
+
+%body-2 {
+	@apply text-[clamp(1.125rem,min(2.5vw,1.5rem),1.5rem)];
+	@apply leading-[clamp(1.75rem,min(2.6vw,2.375rem),2.375rem)];
+	@apply font-semibold;
+}
+
+%body-3 {
+	@apply text-[clamp(1rem,min(1.5vw,1.125rem),1.125rem)];
+	@apply leading-[clamp(1.125rem,min(2vw,1.5rem),1.5rem)];
+	@apply font-normal;
+}
+
+%body-4 {
+	@apply text-[clamp(0.75rem,min(1.5vw,0.875rem),0.875rem)];
+	@apply leading-[clamp(1.5rem,min(2vw,2.125rem),2.125rem)];
+	@apply font-normal;
+}
+
+%overline-nm {
+	@apply text-[clamp(0.75rem,min(1.5vw,0.875rem),0.875rem)];
+	@apply leading-[clamp(5.25rem,min(2vw,11.25rem),11.25rem)];
+	@apply uppercase tracking-[0.15rem] font-bold text-dark-shade-100;
+}
+
 h1,
 h2,
 h3,
 p,
 a {
-    @apply text-white;
+	@apply text-white;
 }
 
 h1,
 .h1 {
-    @apply text-[clamp(3.4rem,min(6vw,6.75rem),6.75rem)];
-    @apply leading-[clamp(3.4rem,min(6vw,6.75rem),6.75rem)];
-
-    @apply font-bold;
+	@extend %h1;
 }
 
 h2,
 .h2 {
-    @apply text-[clamp(2rem,min(3vw,4rem),4rem)];
-    @apply leading-[clamp(2.5rem,min(3.5vw,4.5rem),4.5rem)];
-
-    @apply font-semibold;
+	@extend %h2;
 }
 
 h3,
 .h3 {
-    @apply text-[clamp(1.5rem,min(2.5vw,3rem),3rem)];
-    @apply leading-[clamp(2rem,min(2.6vw,4rem),4rem)];
-    @apply font-semibold;
+	@extend %h3;
 }
 
 h4,
 .h4 {
-    @apply text-[clamp(1.2rem,min(2.5vw,2.25rem),2.25rem)];
-    @apply leading-[clamp(2rem,min(2.6vw,4rem),4rem)];
-    @apply font-bold;
+	@extend %h4;
 }
 
-p,
-.p {
-    @apply text-[clamp(1.2rem,min(1.7vw,1.75rem),1.75rem)];
-    @apply leading-[clamp(1.56,min(2vw,2.625rem),2.625rem)];
+h5,
+.h5 {
+	@extend %h5;
 }
 
-.thin-para {
-    @apply text-[clamp(1.5rem,min(2.5vw,3rem),3rem)];
-    @apply leading-[clamp(2.5rem,min(2.6vw,4rem),4.5rem)];
-    @apply font-light text-center;
+h6,
+.h6 {
+	@extend %h6;
 }
 
-.medium-title {
-    @apply text-[clamp(2rem,min(1.5vw,2.5rem),2.5rem)];
-    @apply leading-[clamp(2rem,min(2vw,3rem),3rem)];
-    @apply font-bold;
+.body-1 {
+	@extend %body-1;
 }
 
-.small-title {
-    @apply text-[clamp(1rem,min(1.5vw,1.5rem),1.5rem)];
-    @apply leading-[clamp(1.5rem,min(2vw,2rem),2rem)];
-    @apply font-bold text-center;
+.body-2 {
+	@extend %body-2;
 }
 
-.small-para {
-    @apply text-[clamp(1rem,min(1.5vw,1.5rem),1.5rem)];
-    @apply leading-[clamp(1.5rem,min(2vw,2rem),2rem)];
-    @apply font-normal text-center;
+.body-3 {
+	@extend %body-3;
 }
 
-.caption-bold {
-    @apply uppercase text-[0.875rem]  leading-[50px] tracking-[0.15rem] font-bold text-gray-light;
+.body-4 {
+	@extend %body-4;
+}
+
+.overline-nm {
+	@extend %overline-nm;
 }

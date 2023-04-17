@@ -14,7 +14,7 @@
 	<div class="center-content gap-y-5 max-w-[min(60vw,890px)]">
 		<h2 class="capitalize">{data.title}</h2>
 		{#each data.description as desc}
-			<p class="thin-para mb-11">
+			<p class="body-1 mb-11">
 				{desc}
 			</p>
 		{/each}

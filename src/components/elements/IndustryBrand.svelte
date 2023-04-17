@@ -1,16 +1,15 @@
 <script lang="ts">
 	let brands: string[] = [
-		'/images/industry-brand/bosch.svg',
-		'/images/industry-brand/icici.png',
-		'/images/industry-brand/aditya-birla.png',
-		'/images/industry-brand/kotak.svg',
-		'/images/industry-brand/mahindra.svg'
+		'/images/industry-brand/icici-logo.png',
+		'/images/industry-brand/hp-logo.png',
+		'/images/industry-brand/idfc-logo.png',
+		'/images/industry-brand/indian-oil-logo.png'
 	];
 </script>
 
 <div class="brand-wrapper">
-	<p class="brand-title">Together with the industry leaders</p>
-	<div class="brand-list">
+	<p class="body-1 text-center">We are automating vehicle payments for industry leaders in banking & fuelling</p>
+	<div class="brand-list-2">
 		{#each brands as brand}
 			<img src={brand} alt={brand} class="h-auto" />
 		{/each}

@@ -1,11 +1,11 @@
 <script lang="ts">
 	import GradientBar from './elements/GradientBar.svelte';
 
-	let slide_1: string = '/images/careers/slide-1.png';
-	let slide_2: string = '/images/careers/slide-2.png';
-	let slide_3: string = '/images/careers/slide-3.png';
+	export let slide_1: string = '/images/careers/slide-1.png';
+	export let slide_2: string = '/images/careers/slide-2.png';
+	export let slide_3: string = '/images/careers/slide-3.png';
 
-	let jobDescriptions = [
+	export let jobDescriptions = [
 		'We are looking for full-stack humans that can support us, and challenge the boundaries of technology and imagination, every day.',
 		'We know you will learn from us and we expect to be taught new things by you.',
 		'We invite you to bring your personal experience, your knowledge, and your creativity to shape the way we enable the future of autonomous vehicle commerce.'
@@ -20,12 +20,11 @@
 	</div>
 	<div class="mx-auto max-w-[clamp(500px,90vw,850px)]">
 		{#each jobDescriptions as desc}
-			<p class="thin-para mb-20">
+			<p class="body-1 text-center mb-20">
 				{desc}
 			</p>
 		{/each}
 	</div>
-	<GradientBar />
 </section>
 
 <style lang="scss">

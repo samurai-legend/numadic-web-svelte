@@ -28,6 +28,6 @@
 <style lang="scss">
 	.circle {
 		@apply h-9 w-9 z-[1000] pointer-events-none absolute
-         bg-gray-light rounded-full origin-[-25%_-25%];
+         bg-dark-shade-100 rounded-full origin-[-25%_-25%];
 	}
 </style>

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Banner from '$components/Banner.svelte';
-	import JoinUs from '$components/JoinUs.svelte';
+	import OpenPosition from '$components/OpenPosition.svelte';
 	import Team from '$components/Team.svelte';
 	import Undisrupt from '$components/Undisrupt.svelte';
 	import ValueSystem from '$components/ValueSystem.svelte';
@@ -16,4 +16,4 @@
 <Undisrupt />
 <ValueSystem />
 <Team />
-<JoinUs />
+<OpenPosition />

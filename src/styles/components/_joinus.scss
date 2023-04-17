@@ -1,0 +1,9 @@
+.join-us {
+	@--container {
+		@apply mt-20 mb-32;
+	}
+
+	@--wrapper {
+		@apply bg-gray-extra-dark grid grid-cols-2 py-36;
+	}
+}
