@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../styles/app.scss';
 	import Navbar from '$components/Navbar.svelte';
 	import { page } from '$app/stores';
 	import Footer from '$components/Footer.svelte';
@@ -6,9 +7,9 @@
 
 <svelte:head>
 	<title>{$page.data.title}</title>
-	<style global>
+	<!-- <style global>
 		@import 'src/styles/app.scss';
-	</style>
+	</style> -->
 </svelte:head>
 
 <!-- <MousePointer /> -->
