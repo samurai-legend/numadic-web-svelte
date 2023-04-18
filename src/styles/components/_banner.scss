@@ -1,6 +1,10 @@
 .banner {
-    &-wrapper {
-        @apply h-screen py-5;
-        @apply flex flex-col justify-end items-center text-center gap-y-3;
-    }
+	&-wrapper {
+		@apply h-screen py-5;
+		@apply flex flex-col justify-end items-center text-center gap-y-3;
+		.button {
+			@apply py-3 px-6;
+			@extend %body-1;
+		}
+	}
 }

@@ -3,7 +3,7 @@
 	import GradientBarSplit from './elements/GradientBarSplit.svelte';
 </script>
 
-<section class="center-content mb-10">
+<section class="open-position--wrapper">
 	<div class="center-content mt-40 mb-10">
 		<h2>and you!</h2>
 		<p class="investor-description">

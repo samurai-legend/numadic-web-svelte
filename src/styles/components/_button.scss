@@ -10,4 +10,12 @@
 	&-gradient {
 		background: linear-gradient(96.1deg, #2354ff 0%, #6283fa 100%);
 	}
+
+	&-outline {
+		@apply bg-transparent border-[1px] border-white border-solid w-full py-3 px-4;
+	}
+
+	&-blue {
+		@apply bg-jordy-blue w-full py-3 px-4  border-[1px] border-jordy-blue border-solid;
+	}
 }

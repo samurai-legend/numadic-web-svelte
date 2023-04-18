@@ -3,30 +3,34 @@
 @tailwind utilities;
 
 @layer components {
-    .container {
-        @apply minsm:max-w-[640px] minmd:max-w-[768px] minlg:max-w-[1024px] minxl:max-w-[1280px] min2xl:max-w-[1440px];
-    }
+	.container {
+		@apply minsm:max-w-[640px] minmd:max-w-[768px] minlg:max-w-[1024px] minxl:max-w-[1280px] min2xl:max-w-[1440px];
+	}
 }
 
-@import "resets";
-@import "fonts";
-@import "icomoon";
-@import "typograhy";
-@import "components/navbar";
-@import "components/button";
-@import "components/banner";
-@import "components/product";
-@import "components/movement";
-@import "components/investor";
-@import "components/footer";
-@import "elements/gradientBar";
-@import "elements/dropdown";
-@import "elements/dotMap";
-@import "elements/stat";
-@import "elements/brand";
-@import "elements/valueSystem";
-@import "elements/teamPlaceholder";
+@import 'resets';
+@import 'fonts';
+@import 'icomoon';
+@import 'typograhy';
+@import 'components/navbar';
+@import 'components/button';
+@import 'components/banner';
+@import 'components/form';
+@import 'components/open-position';
+@import 'components/product';
+@import 'components/contact-us';
+@import 'components/movement';
+@import 'components/investor';
+@import 'components/footer';
+@import 'elements/gradientBar';
+@import 'elements/dropdown';
+@import 'elements/modal';
+@import 'elements/dotMap';
+@import 'elements/stat';
+@import 'elements/brand';
+@import 'elements/valueSystem';
+@import 'elements/teamPlaceholder';
 
 .center-content {
-    @apply flex flex-col justify-center items-center;
+	@apply flex flex-col justify-center items-center;
 }

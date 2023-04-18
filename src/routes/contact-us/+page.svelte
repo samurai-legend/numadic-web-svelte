@@ -23,7 +23,7 @@
 	];
 </script>
 
-<section class="center-content py-40">
+<section class="contact-us--wrapper">
 	<h1>Contact</h1>
 	<div class="grid grid-cols-2 my-10">
 		<div>
@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<div>
-			<DotMap/>
+			<DotMap />
 		</div>
 	</div>
 	<GradientBarSplit />

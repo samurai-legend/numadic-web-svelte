@@ -1,0 +1,9 @@
+.open-position {
+	&--wrapper {
+		@apply center-content mb-10;
+		.button {
+			@apply py-3 px-6;
+			@extend %body-1;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.form {
+    @apply flex flex-col gap-y-4;
+	&-field {
+		@apply flex flex-col items-start justify-center;
+
+		label {
+			@apply text-white;
+            @extend %body-3;
+		}
+
+		input,
+		textarea {
+			@apply placeholder:text-dark-shade-100;
+			@apply w-full border-2 border-dark-shade-100 text-white;
+            @apply bg-transparent outline-none px-5 py-3;
+            @extend %body-3;
+
+		}
+	}
+}

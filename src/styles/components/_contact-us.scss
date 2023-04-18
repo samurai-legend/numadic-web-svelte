@@ -1,0 +1,9 @@
+.contact-us {
+	&--wrapper {
+		@apply center-content py-40;
+		.button {
+			@apply py-3 px-6;
+			@extend %body-1;
+		}
+	}
+}
